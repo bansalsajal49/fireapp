@@ -17,33 +17,33 @@ class _MyScrollState extends State<MyScroll> {
           children: [
             Container(
               width: double.infinity,
-              height: 100,
+              height: 200,
               color: Colors.black,
             ),
             Container(
               width: double.infinity,
-              height: 100,
+              height: 200,
               color: Colors.amber,
             ),
             Container(
               width: double.infinity,
-              height: 100,
+              height: 200,
               color: Colors.blue,
             ),
-            Container(width: double.infinity, height: 100, color: Colors.green),
+            Container(width: double.infinity, height: 200, color: Colors.green),
             Container(
               width: double.infinity,
-              height: 100,
+              height: 200,
               color: Colors.orange,
             ),
             Container(
               width: double.infinity,
-              height: 100,
+              height: 200,
               color: Colors.black,
             ),
             Container(
               width: double.infinity,
-              height: 100,
+              height: 200,
               color: Colors.brown,
             ),
           ],
