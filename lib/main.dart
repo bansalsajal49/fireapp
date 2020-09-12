@@ -2,6 +2,7 @@ import 'package:fireapp/chat.dart';
 import 'package:fireapp/camera.dart';
 import 'package:fireapp/login.dart';
 import 'package:fireapp/register.dart';
+import 'package:fireapp/scroll.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:splashscreen/splashscreen.dart';
@@ -20,6 +21,7 @@ void main() async {
     routes: {
       "splash": (context) => MyApp(),
       "home": (context) => MyHome(),
+      "scroll": (context) => MyScroll(),
       "register": (context) => Register(),
       "chat": (context) => Chat(),
       "login": (context) => Login(),
@@ -43,7 +45,8 @@ class _MyAppState extends State<MyApp> {
           'Welcome In SplashScreen',
           style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
         ),
-        image: new Image.network('https://i.imgur.com/TyCSG9A.png'),
+        image: new Image.network(
+            'https://github.com/bansalsajal49/fireapp/blob/master/assets/mng1.png?raw=true'),
         backgroundColor: Colors.white,
         styleTextUnderTheLoader: new TextStyle(),
         photoSize: 100.0,
@@ -66,6 +69,11 @@ class MyHome extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
           onPressed: () => Navigator.pushNamed(context, "camera")),
       appBar: AppBar(
+        actions: [
+          IconButton(
+              icon: Icon(Icons.screen_share),
+              onPressed: () => Navigator.pushNamed(context, "scroll"))
+        ],
         backgroundColor: Colors.lime[900],
         leading: Icon(Icons.home),
         title: Text("MEETnGREET"),
