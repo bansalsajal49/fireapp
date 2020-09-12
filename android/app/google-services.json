@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "860985950487",
+    "firebase_url": "https://fireapp-5db59.firebaseio.com",
+    "project_id": "fireapp-5db59",
+    "storage_bucket": "fireapp-5db59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860985950487:android:039d9f4e81b233b8ae7752",
+        "android_client_info": {
+          "package_name": "com.bansalsajal40.fireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860985950487-4evmbtptpb73q4hsejgsvlk7ktejk3m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6Ef2vMYUgw0QylxHcTlbny0dPhFs3GBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860985950487-4evmbtptpb73q4hsejgsvlk7ktejk3m9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
